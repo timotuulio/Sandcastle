@@ -1,0 +1,10 @@
+.header-container {
+  width: 100%; /* Container spans full width */
+  height: 200px; /* Fixed height */
+}
+
+.header-image {
+  width: 100%; /* Ensures the image spans the full width */
+  height: 200px; /* Keeps the image aspect ratio */
+  object-fit: cover; /* Crops the image if needed to fill the container */
+}
