@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from './app.routes';
+import { provideHttpClient } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 // Components
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { HeaderComponent } from "./header/header.component";
@@ -24,8 +26,9 @@ import { HomepageComponent } from './homepage/homepage.component';
   imports: [
     BrowserModule,   // Import BrowserModule for browser compatibility
     RouterModule.forRoot(appRoutes),  // Use the routes with RouterModule
+    CommonModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]  // Bootstrap AppComponent as the entry point
+  providers: [ provideHttpClient() ],
+  bootstrap: [ AppComponent ]  // Bootstrap AppComponent as the entry point
 })
 export class AppModule { }
