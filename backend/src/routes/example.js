@@ -5,7 +5,7 @@ const router = express.Router();
 router.get('/', (req, res) => {
     res.json([
         { id: 1, name: 'Item X' },
-        { id: 2, name: 'Item 2' },
+        { id: 2, name: 'Item 3' },
         { id: 3, name: 'Item Y' },
     ]);
 });
