@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4206d31-4782-4c66-95b1-e5fdf0311ae0" name="Changes" comment="Add the main folder .idea file" />
+    <list default="true" id="a4206d31-4782-4c66-95b1-e5fdf0311ae0" name="Changes" comment="Connect the postreSQL database to backend">
+      <change afterPath="$PROJECT_DIR$/backend/src/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/routes/gear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/routes/hero.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/services/hero.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="new_test_for_folders" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,9 +41,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\timtu\\Desktop\\mappi ö\\sandcastle\\frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\timtu\Desktop\mappi ö\sandcastle\backend\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,6 +60,16 @@
       <option name="presentableId" value="Default" />
       <updated>1735291660995</updated>
       <workItem from="1735291662228" duration="1624000" />
+      <workItem from="1735293317291" duration="11074000" />
+      <workItem from="1737362872145" duration="24000" />
+      <workItem from="1738318551020" duration="606000" />
+      <workItem from="1738573405912" duration="11000" />
+      <workItem from="1743418860769" duration="6709000" />
+      <workItem from="1745409700110" duration="319000" />
+      <workItem from="1747980720721" duration="7307000" />
+      <workItem from="1749640809530" duration="14000" />
+      <workItem from="1752741859211" duration="5817000" />
+      <workItem from="1767092651932" duration="2628000" />
     </task>
     <task id="LOCAL−00001" summary="Update folder structure v2">
       <created>1735291808103</created>
@@ -68,7 +95,25 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1735292844268</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Add the main folder .idea file">
+      <created>1735293482135</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1735293482135</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Connect the frontend to backend">
+      <created>1748002415426</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1748002415426</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Connect the postreSQL database to backend">
+      <created>1748002898107</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1748002898107</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +134,8 @@
     <MESSAGE value="Update folder structure v2" />
     <MESSAGE value="Just testing that everything works as intended" />
     <MESSAGE value="Add the main folder .idea file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add the main folder .idea file" />
+    <MESSAGE value="Connect the frontend to backend" />
+    <MESSAGE value="Connect the postreSQL database to backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connect the postreSQL database to backend" />
   </component>
 </project>
