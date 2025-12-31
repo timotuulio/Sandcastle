@@ -7,8 +7,7 @@ const pool = new Pool({
     host: 'localhost',
     database: 'sandcastle_DB',
     password: 'admin',
-    port: 5432, // default PostgreSQL port
+    port: 5432,
 });
 
 module.exports = pool;
-
